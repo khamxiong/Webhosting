@@ -44,7 +44,20 @@
 .button .home-btn:hover{
    background-color: var(--main-color);
 }
-
+.swiper-button-prev,.swiper-button-next{
+    width: 2rem;
+    height: 2rem;
+    padding: 2;
+    background-color: aqua;
+}
+.swiper-button-prev::after{
+    color: brown;
+    font-size: 0.7rem;
+}
+.swiper-button-next::after{
+    color: brown;
+    font-size: 0.7rem;
+}
 .home-right img{
     display: block;
     object-fit: cover;
