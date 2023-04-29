@@ -1,0 +1,106 @@
+.hosting{
+    background-color: var(--color-white);
+}
+.hosting .container{
+    /* background-color: rgb(234, 0, 255); */
+     background-color: transparent; 
+}
+.hos-top{
+    width: 40rem;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    /* background-color: aqua; */
+    text-align: center;
+}.hos-top h2{
+    width: 35rem;
+    margin: 0 auto;
+    line-height: 1;
+    max-width: 100%;
+}
+.hos-top .desc{
+    font-size: 1rem;
+    color: var(--color-dark);
+}
+.hos-row{
+    margin-top: 2rem;
+    display: flex;
+    flex: 1 1 1fr;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hos-row .card{
+    width: 18rem;
+    text-align: center;
+    padding-top: 0;
+}
+.card .detail{
+    border: 3px solid var(--main-color);
+    border: 3px solid var(--color-blue-dark);
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+}
+.card .detail:hover{
+    border: 3px solid var(--main-color);
+}
+.detail .choose-host{
+    font-size: 1.5rem;
+    color: var(--color-blue-dark);
+    font-weight: 600;
+}
+.detail .h-price{
+    text-transform: uppercase;
+    color: var(--color-dark);
+    font-size: 1rem;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.detail .h-price span{
+    /* color: var(--color-dark); */
+    color: red;
+    font-size: 2rem;
+    padding: 0.5rem;
+    display: inline-block;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    line-height: 3rem;
+    border: 1px solid var(--color-blue-dark);
+}
+.detail .click{
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: var(--main-color);
+    color: #ffff;
+    border-radius: 1.5rem;
+    text-transform: uppercase;
+    border: 1px solid var(--color-blue-dark);
+    cursor: pointer;
+}
+.detail .click:hover{
+    background-color: var(--color-blue-dark);
+}
+.detail >p{
+    color: var(--color-dark);
+    font-size: 1rem;
+    padding: 0.5rem; margin: 0;
+}
+.card .buy{
+    margin-top: 3rem;
+}
+.card .buy .btn-buy{
+    padding: .7rem 2rem;
+    font-size: 1.5rem;
+    color: #ffff;
+    background-color: var(--main-color);
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.card .buy .btn-buy:hover{
+    background-color: var(--color-blue-dark);
+}

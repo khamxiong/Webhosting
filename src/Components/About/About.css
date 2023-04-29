@@ -1,0 +1,40 @@
+.about{
+    background-color: var( --color-white);
+}
+.container{
+    width: 60rem;
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 3rem;
+    background-color: transparent;
+}
+.title{
+    font-size: 3rem;
+    color: var(--color-blue-dark);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.title span{
+    color: var(--main-color);
+}
+.container img{
+    width: 40rem;
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.container p{
+    margin-top: 3rem;
+    font-size: 1rem;
+    color: var(--color-dark);
+}
+.container .read{
+    padding: 3rem 0;
+}
+.container .btn{
+    width: 10rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
